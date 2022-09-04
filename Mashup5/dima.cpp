@@ -11,14 +11,14 @@ int main()
 
     vector<long long int> a;
 
-    for (int i: k)
+    for (long long int i=0; i<k; i++)
     {
-        long long int aux
+        long long int aux;
         scanf("%lld", &aux);
         a.push_back(aux);
     }
 
-    for(int i: k)
+    for(long long int i=0; i<k; i++)
     {
         if(n/a[i]>great)
         {
@@ -27,5 +27,5 @@ int main()
         }
     }
 
-    pritnf("%lld %lld\n", type, great);
+    printf("%d %lld\n", type+1, great);
 }
