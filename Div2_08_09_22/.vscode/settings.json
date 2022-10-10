@@ -24,11 +24,5 @@
         "**/*_adt.pvs": false,
         "**/*.log": true,
         "**/.vscode": true
-    },
-    "files.associations": {
-        "chrono": "cpp",
-        "complex": "cpp",
-        "array": "cpp",
-        "cmath": "cpp"
     }
 }
