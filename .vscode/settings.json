@@ -29,6 +29,7 @@
         "chrono": "cpp",
         "complex": "cpp",
         "array": "cpp",
-        "cmath": "cpp"
+        "cmath": "cpp",
+        "numbers": "cpp"
     }
 }
