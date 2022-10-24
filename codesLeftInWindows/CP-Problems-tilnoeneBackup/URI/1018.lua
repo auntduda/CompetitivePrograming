@@ -1,0 +1,10 @@
+n = io.read("*number")
+
+print(string.format("%d", n))
+print(string.format("%.0f nota(s) de R$ 100,00", math.floor(n/100)))
+print(string.format("%.0f nota(s) de R$ 50,00", math.floor((n%100)/50)))
+print(string.format("%.0f nota(s) de R$ 20,00", math.floor(((n%100)%50)/20)))
+print(string.format("%.0f nota(s) de R$ 10,00", math.floor((((n%100)%50)%20)/10)))
+print(string.format("%.0f nota(s) de R$ 5,00", math.floor(((((n%100)%50)%20)%10)/5)))
+print(string.format("%.0f nota(s) de R$ 2,00", math.floor((((((n%100)%50)%20)%10)%5)/2)))
+print(string.format("%.0f nota(s) de R$ 1,00", math.floor((((((n%100)%50)%20)%10)%5)%2)))
