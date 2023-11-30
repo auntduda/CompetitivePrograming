@@ -1,5 +1,0 @@
-a = io.read("*number")
-b = io.read("*number")
-c = io.read("*number")
-d = io.read("*number")
-print("DIFERENCA = " .. (a*b-c*d))

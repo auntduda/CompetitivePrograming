@@ -1,1 +1,0 @@
-puts 'Nao se refuta ciencia com opiniao'
